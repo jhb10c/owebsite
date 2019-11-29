@@ -1,0 +1,23 @@
+  
+/*Projects page Stuff */
+
+<font size= "4"><strong>Math Fun Day</strong></font><br><br>
+	<p>Every year I participate in FSU Math department's 'Math Fun Day,' where we show students K-12 the lighter side of math.<br><br>
+	<img src="{% static "css\MFD1.jpg" %}" align="right" width="400" height="auto" >
+	<ul>
+	<li> In 2018, I help coordinate a Math Escape Room. </li>
+	<li> In 2017, I ran the 'Women in Math' room, where our theme was showing kids the research of graduate women at FSU
+	through games and art projects.</li>
+	<li> In 2016, I helped with the 'Women in Math' room, where we based activities off the research of famous female mathematicians.</li>
+	<li> In 2015, I made a hyperbolic crochet and taught students about the differences between hyperbolic and euclidean geometry.</li>
+	<li> In 2014, I led a 'Fibonacci Sequence in Nature' project, where we traced the spirals of pinecones with glitter.</li>
+	</ul>
+	
+	</p>
+   
+
+
+ <font size= "4"><strong>3D Printing</strong></font><br><br>
+	I've recently started to learn how to 3D print. My first project is a stereographic projection
+	mesh. The printed figures are displayed in the Love Building on the first floor. The GeoGebra
+	file is below.<br><br>

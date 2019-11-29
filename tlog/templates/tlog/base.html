@@ -1,0 +1,66 @@
+
+
+{% load static %}
+
+<html>
+    <head>
+        <title>Opal Graham's Personal Page</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/Plog.css' %}">
+    </head>
+
+
+
+<div class="navbar">
+  <a href="{% url 'post_list'  %}"> Home </a>
+  <a href="{% url 'teaching'  %}"> Teaching </a>
+  <a href="{% url 'research'  %}"> Research </a>  
+  <a href="{% url 'dprinting'  %}"> Projects</a>
+  <a href="{% url 'news'  %}"> News</a>
+  
+ 
+</div>
+
+
+
+
+
+
+
+<div class="row">
+  <div class="side">
+
+<h2><p style="text-align:center;"><a href="https://www.math.fsu.edu/People/faculty.php?id=1435" target="_blank">Opal Graham</a></h2></p><br>
+ <p style="text-align:center;"><img src="{% static "css\Picture1.jpg" %}" width="170" height="auto" ></p><br>
+
+<p style="text-align:center;"> PhD Candidate<br> Pure Math <br>
+    Florida State University<br><br>
+    <b>Office Hours</b><br>
+    M 3:30-4:30; W 3:30-5:30 <br>
+    Other times by appt.</p><br>
+<p style="text-align:center;"><b>Fall 2019 Teaching</b><br>
+    Calculus 1 (MAC2311)<br><br>
+    <b>Contact</b><br>Office: MCH 402-B<br>ograham(at)math(dot)fsu(dot)edu<br>Mail: 208 Love Building <br> 1017 Academic Way 
+    <br>Tallahassee, FL 32306-4510</p>
+   
+
+
+
+</div>
+<div class="main">
+
+
+   {% block content %}
+   {% endblock %}
+
+
+</div></div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2> <p style="text-align:center;"><a href="https://www.math.fsu.edu/" target="_blank"><img src="{% static "css\fsu2.png" %}" width="250" height="auto" ></a></p><br></h2>
+</div>
+
+</html>
